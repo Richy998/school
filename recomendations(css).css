@@ -1,0 +1,92 @@
+#sections{
+    height: 50px;
+    background-color:  rgba(255, 255, 255, 0.7);
+display: flex;
+flex-direction: row;
+position: fixed;
+bottom:0%;
+left: 0;
+width: 100%;
+justify-content: space-around;
+align-items: center;}
+.pag{
+
+width: 350px;
+text-align: center;} 
+
+.materia{
+background-color: #aed392;   
+border: solid 3px rgb(0, 0, 0);
+align-content: center;
+margin: 10px;
+ }
+ 
+ #short{
+   width: 50%; display:flex;
+   flex-direction: row;
+   justify-content: space-around;
+   height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+   padding: 10px 5px;
+ }
+ #navigation p{
+    padding: 10px 5px;
+    align-content: center;
+    align-self: center;
+ }
+ #navigation i{
+    padding: 10px 5px;
+    align-content: center;
+    align-self: center;
+ }
+ .left{
+    background-color: rgba(234, 121, 0, 0.867);
+    width: 400px;
+ }
+ .right{
+   width: 400px;
+
+ }
+ 
+ 
+ .hidden{
+    display: none;
+ }
+
+ .course_btn{
+    position: relative;
+    width: 90%;
+margin: 0px 30px;    
+border-radius: 10px;
+    background-color: #aed392;
+    height: 50px;
+ }
+
+ #display{
+    overflow: scroll;
+    height: 695px;
+    width: 400px; 
+    background-color: rgba(39, 167, 7, 0.87);
+
+ }
+ input{
+   margin: 5px;
+   border-radius: 5px;
+   
+ }
+ input:focus{
+   background-color: rgba(39, 167, 7, 0.87);
+ }
+.pag:hover{
+    cursor: pointer;}
+    a{
+        text-decoration: none;
+        color:white;
+        font-size: 2.3rem;
+    }
+   #scores{
+    display: none;
+   }
+   #score{
+    display: inline-block;
+   }
